@@ -41,22 +41,23 @@ li .active{
   background-color: #EEEBDD;
   display: flex;
   justify-content: center;
-  padding: 2em;
+  padding: 2em 0 8em;
 }
 
 .astronaut {
   width: 29%;
+  height: 20em;
 }
 
 .planets {
   width: 35%;
-  height: 30%;
+  height: 19em;
   margin-left: 3em;
 }
 
 .middle-container {
   background-color: #D8B6A4;
-  padding: 6em 0 7em;
+  padding: 7em 0 7em;
 }
 
 .veni-pic{
