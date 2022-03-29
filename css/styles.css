@@ -46,7 +46,6 @@ li .active{
 
 .astronaut {
   width: 29%;
-  height: 20em;
 }
 
 .planets {
@@ -181,7 +180,7 @@ hr {
 
 .worklife-container{
   background-color: #FFFDDE;
-  padding: 6em 0 7em;
+  padding: 7em 0 7em;
 }
 
 .ty-div{
