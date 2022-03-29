@@ -186,3 +186,8 @@ hr {
 .ty-div{
   border-radius: 100%;
 }
+
+.wl-imgs{
+  grid-row: auto;
+  width: 5em;
+}
