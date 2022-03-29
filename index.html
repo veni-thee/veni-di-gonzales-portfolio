@@ -93,12 +93,35 @@
       </div>
       <div class="about inter">
         <h5 class="inter">
-          Here are my contact details:
+          Send a message.
         </h5>
-        <p class="inter lh-1">
-          <i class="fa fa-phone mt-2" aria-hidden="true"></i> +63-999-878-8123 <br>
-          <i class="fa fa-envelope-o mt-2" aria-hidden="true"></i> venidigonzales@rocketmail.com
-        </p>
+        <div class="row d-flex justify-content-center">
+          <div class="col-5">
+          <form action="https://formsubmit.co/venidigonzales@rocketmail.com" method="POST">
+            <div class="form-group">
+              <input type="text" class="form-control inter" name="email" id="email" placeholder="Please enter your email address here">  
+            </div>
+            <input type="hidden" name="_next" value="https://github.com/veni-thee/veni-di-gonzales-portfolio/thank-you.html">
+            <div class="form-group">
+              <input type="text" class="form-control inter" name="_subject" id="subject" placeholder="Subject" autocomplete="off">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control inter" name="message" rows="3" placeholder="Enter your message here" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary mt-2 inter">Submit</button>
+            
+            <input type="hidden" name="_captcha" value="false">
+            <ul class="list-unstyled address-container mt-3">
+              <li>
+                <p class="inter lh-1">
+                  <i class="fa fa-phone mt-2" aria-hidden="true"></i> +63-999-878-8123 <br>
+                  <i class="fa fa-envelope-o mt-2" aria-hidden="true"></i> venidigonzales@rocketmail.com
+                </p>
+              </li>
+            </ul>
+            </div>
+          </form>
+        </div>
 
       </div>
     </div>

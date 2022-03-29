@@ -15,7 +15,7 @@ body{
   color: aliceblue;
 }
 
-.active{
+li .active{
   font-weight: 800;
   color: rgb(125, 162, 163);
 }
@@ -154,7 +154,7 @@ hr {
 /* Styles for Non-Work */
 
 .nonwork{
-  width: 58%;
+  width: 45%;
 }
 
 .space-nonwork{
