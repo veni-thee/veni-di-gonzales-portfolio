@@ -68,7 +68,7 @@ li .active{
   line-height: 2em;
 }
 
-.contact-me{
+.contact-me, .cont-learning, .work-life{
   width: 10em;
   height: 10em;
   border-radius: 100%;
@@ -94,15 +94,29 @@ li .active{
   color: bisque;
 }
 
+a, small{
+  color: #3A3845;
+  text-decoration: none;
+}
+
+small:hover{
+  color: tomato;
+}
+
 
 /* Styles for Work */
 .work{
-  width: 38%;
+  width: 35%;
 }
 
 .telus-pic{
-  height: 25em;
-  width: 50em;
+  height: 22em;
+  width: 45em;
+}
+
+.devops-pic{
+  height: 15em;
+  margin: 0 0 1em;
 }
 
 hr {
@@ -169,3 +183,6 @@ hr {
   padding: 6em 0 7em;
 }
 
+.ty-div{
+  border-radius: 100%;
+}
