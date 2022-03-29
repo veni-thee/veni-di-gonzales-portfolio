@@ -1,0 +1,171 @@
+*{
+  font-family: 'Handlee', cursive;
+}
+
+body{
+  text-align: center;
+}
+
+.nav-b{
+  background-color: #3A3845;
+  padding: .5em;
+}
+
+.nav-link{
+  color: aliceblue;
+}
+
+.active{
+  font-weight: 800;
+  color: rgb(125, 162, 163);
+}
+
+.nav-link:hover{
+  color: coral;
+}
+
+.veni-photo{
+  width: 4em;
+}
+
+.top-container {
+  background-color: #EEEBDD;
+  padding: 2em 0 0;
+}
+
+.pat{
+  font-family: 'Patrick Hand', cursive;
+}
+
+.space{
+  background-color: #EEEBDD;
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+.astronaut {
+  width: 29%;
+}
+
+.planets {
+  width: 35%;
+  height: 30%;
+  margin-left: 3em;
+}
+
+.middle-container {
+  background-color: #D8B6A4;
+  padding: 6em 0 7em;
+}
+
+.veni-pic{
+  width: 12em;
+  padding: 1em 0 1.5em;
+}
+
+.about{
+  line-height: 2em;
+}
+
+.contact-me{
+  width: 10em;
+  height: 10em;
+  border-radius: 100%;
+}
+
+.bottom-container {
+  background-color: #630000;
+  padding: 2em;
+  color: aliceblue;
+}
+
+.fira{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.ligi{
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.ligi:hover{
+  color: bisque;
+}
+
+
+/* Styles for Work */
+.work{
+  width: 38%;
+}
+
+.telus-pic{
+  height: 25em;
+  width: 50em;
+}
+
+hr {
+  background-color: transparent ;
+  border: dashed 4px #49166d;
+  width: 8em;
+  margin: auto;
+  margin-bottom: 3em;
+  margin-top: 3em;
+  }
+
+.ssyb{
+  width: 10em;
+  margin-top: 3em;
+}
+
+.skills-container{
+  background-color: #FFEFEF;
+  padding: 6em 0 7em;
+}
+
+.car-div{
+  background-color: #FFFDDE;
+}
+
+.carousel-inner{
+  width: 50em;
+}
+
+.carousel-item { padding: 7% 10% }
+
+.inter{
+  font-family: 'Inter', sans-serif;
+}
+
+.skills-div{
+  background-color: #FFEFEF;
+}
+
+.car-skills{
+  padding-bottom: 10em;
+}
+
+.carousel-caption{
+  top: 25em;
+  color: #3A3845;
+}
+
+/* Styles for Non-Work */
+
+.nonwork{
+  width: 58%;
+}
+
+.space-nonwork{
+  background-color: #EEEBDD;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.worklife-container{
+  background-color: #FFFDDE;
+  padding: 6em 0 7em;
+}
+
