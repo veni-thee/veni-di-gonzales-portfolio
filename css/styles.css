@@ -94,7 +94,7 @@ li .active{
   color: bisque;
 }
 
-small{
+a, small{
   color: #3A3845;
   text-decoration: none;
 }
