@@ -49,8 +49,8 @@ li .active{
 }
 
 .planets {
-  width: 35%;
-  height: 19em;
+  width: 33%;
+  height: 18em;
   margin-left: 3em;
 }
 
@@ -175,7 +175,7 @@ hr {
   background-color: #EEEBDD;
   display: flex;
   justify-content: center;
-  padding: 1em;
+  padding: 1em 0 10em;
 }
 
 .worklife-container{
