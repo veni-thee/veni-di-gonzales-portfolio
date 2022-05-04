@@ -11,6 +11,12 @@ body{
   padding: .5em;
 }
 
+.nav-btn{
+  border: solid beige 2.5px;
+  margin-right: 1.5em;
+  color: #EEEBDD;
+}
+
 .nav-link{
   color: aliceblue;
 }
@@ -26,6 +32,10 @@ li .active{
 
 .veni-photo{
   width: 4em;
+}
+
+.click-here{
+  color: coral;
 }
 
 .top-container {
@@ -45,13 +55,11 @@ li .active{
 }
 
 .astronaut {
-  width: 29%;
+  width: 60%;
 }
 
 .planets {
-  width: 33%;
-  height: 18em;
-  margin-left: 3em;
+  width: 80%;
 }
 
 .middle-container {
@@ -95,7 +103,7 @@ li .active{
 }
 
 a, small{
-  color: #3A3845;
+  color: beige;
   text-decoration: none;
 }
 
@@ -103,10 +111,24 @@ small:hover{
   color: tomato;
 }
 
+.form-col{
+  display: flex;
+  justify-content: center;
+  margin: 1em 0 1em 0;
+}
+
+.form-class{
+  width: 100%;
+  padding: 0 5em;
+}
+
+.fz-small{
+  font-size: small;
+}
 
 /* Styles for Work */
 .work{
-  width: 35%;
+  width: 80%;
 }
 
 .telus-pic{
@@ -168,7 +190,7 @@ hr {
 /* Styles for Non-Work */
 
 .nonwork{
-  width: 45%;
+  width: 20%;
 }
 
 .space-nonwork{

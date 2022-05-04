@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="description" content="Veni Di Gonzales' portfolio project from The Complete 2022 Web Development Bootcamp by Angela Yu. Copying the design and layout from Sean Halpin's website:
   https://web.archive.org/web/20180819202235js_/http://seanhalpin.io/">
-  <meta name="keywords" content="Veni Di Gonzales Portfolio">
+  <meta name="keywords" content="Veni Di Gonzales Portfolio Work Experience Background Details">
   <meta name="author" content="Veni Di Gonzales">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -40,7 +40,7 @@
         <img class="veni-photo" src="images/veni-cropped.png" alt="Veni Di Gonzales' Photo">
       </div>
 
-      <button class="navbar-toggler btn btn-secondary col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="nav-btn navbar-toggler btn btn-secondary col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <small>Menu</small>
       </button>
   
@@ -67,8 +67,14 @@
     </div>
 
     <div class="row space">
-      <img class="astronaut mb-5 animate__animated animate__pulse" src="images/astronaut.png" alt="astronaut background image">
-      <img class="planets mt-2 mb-5 animate__animated animate__fadeIn" src="images/planets.png" alt="planets background image">
+      <div class="col-sm-12 col-lg-6">
+        <img class="astronaut mb-5 animate__animated animate__pulse" src="images/astronaut.png" alt="astronaut background image">
+      </div>
+      
+      <div class="col-sm-12 col-lg-6">
+        <img class="planets mt-2 mb-5 animate__animated animate__fadeIn" src="images/planets.png" alt="planets background image">
+      </div>
+      
     </div>
   
     <div class="row middle-container">
@@ -91,7 +97,7 @@
           and <h6 class="ms-1 d-inline-block fw-bold"> Web Development.</h6>
         </p>
         <p class="inter">
-          Click <a class="fw-bold" href="work.html">here</a> to know more about my work experience.
+          Click <a class="inter fw-bold click-here" href="work.html">here</a> to know more about my work experience.
         </p>
       </div>
     </div>
@@ -103,20 +109,20 @@
       </div>
       <div class="about inter">
         <h5 class="inter">
-          Send a message.
+          Send me a message!
         </h5>
         <div class="row d-flex justify-content-center">
-          <div class="col-5">
-          <form action="https://formsubmit.co/venidigonzales@rocketmail.com" method="POST">
+          <div class="col-md-8 form-col">
+          <form action="https://formsubmit.co/venidigonzales@rocketmail.com" method="POST" class="form-class">
             <div class="form-group">
-              <input type="text" class="form-control inter" name="email" id="email" placeholder="Please enter your email address here">  
+              <input type="text" class="form-control inter fz-small" name="email" id="email" placeholder="Enter your email address here">  
             </div>
-            <input type="hidden" name="_next" value="https://veni-thee.github.io/veni-di-gonzales-portfolio/thank-you.html">
+            <input type="hidden" name="_next" value="https://veni-thee.github.io/veni-di-gonzales-portfolio/thank-you.html"> 
             <div class="form-group">
-              <input type="text" class="form-control inter" name="_subject" id="subject" placeholder="Subject" autocomplete="off">
+              <input type="text" class="form-control inter fz-small" name="_subject" id="subject" placeholder="Subject" autocomplete="off">
             </div>
             <div class="form-group">
-              <textarea class="form-control inter" name="message" rows="3" placeholder="Enter your message here" required></textarea>
+              <textarea class="form-control inter fz-small" name="message" rows="3" placeholder="Your message here" required></textarea>
             </div>
             <button type="submit" class="btn btn-sm btn-primary mt-2 inter">Submit</button>
             
