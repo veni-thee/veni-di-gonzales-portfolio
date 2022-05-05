@@ -132,8 +132,8 @@ small:hover{
 }
 
 .telus-pic{
-  height: 22em;
-  width: 45em;
+  height: 100%;
+  width: 95%;
 }
 
 .devops-pic{
@@ -165,7 +165,7 @@ hr {
 }
 
 .carousel-inner{
-  width: 50em;
+  width: 95%;
 }
 
 .carousel-item { padding: 7% 10% }
